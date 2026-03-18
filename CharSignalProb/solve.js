@@ -1,13 +1,12 @@
 let transmission = prompt();
 
-let c = 0;
-
 let num1;
 let num2;
 let abVal;
 
 const analyzeFluxEvents = function(transmission){
 
+    let c = 0 ;
     for(let i =0;i<transmission.length-1;i++){
 
         num1  = transmission.charCodeAt(i);
