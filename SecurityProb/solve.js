@@ -1,14 +1,15 @@
-let num = parseInt(prompt("Enter a number:"));
+let num = Number(prompt());
 let num1 = num.toString();
-let c  = 0;
+
 
 
 const fun1 = function(num1){
+    let c  = 0;
     for(let i = 0;i<num1.length;i++){
         c += Number(num1[i]);
     
     }
-    return (c>=10 || c<=99)? "Security Level :Omega" : "Security Level :Sigma"
+    return (c>=10 && c<=99)? "Security Level :Omega" : "Security Level :Sigma"
 
 }
 
