@@ -13,7 +13,11 @@ const fun1 = function(num1){
 
 }
 
-console.log(fun1(num1));
+console.log(fun1(num));
+
+// kindly open windows tab and there paste this code in console. I only know this function for this code dynamic
+
+
 
 
 
